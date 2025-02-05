@@ -39,7 +39,7 @@
 
             .recipe-container {
                 width: 760px;
-                height: 1764px;
+                /* height: 1764px; */
                 background-color: hsl(0, 0%, 100%);
                 border-radius: 20px;
                 margin: 125px auto;
@@ -111,11 +111,11 @@
             .ingredients ul {
                 margin-left: 16px;
                 list-style-type: square;
-                color: hsl(14, 45%, 36%);
             }
 
             .ingredients li::marker {
                 font-size: 12px; /* Điều chỉnh kích thước hình vuông */
+                color: hsl(14, 45%, 36%);
             }
 
             .ingredients li {
@@ -140,6 +140,7 @@
             .nutrition table {
                 width: 100%;
                 border-collapse: collapse;
+                margin-bottom: 20px;
             }
 
             .nutrition tr th {
@@ -162,6 +163,29 @@
             .nutrition tr:last-child th,
             .nutrition tr:last-child td {
                 border-bottom: none;
+            }
+
+            @media only screen and (max-width: 740px) {
+                .recipe-container {
+                    width: 100%;
+                    border-radius: 0;
+                    margin: 0 auto;
+                    /* padding: 0 40px; */
+                }
+
+                .food-img {
+                    width: 100%;
+                    border-radius: 0;
+                    margin: 0 auto 30px;
+                }
+
+                .section {
+                    width: 88%;
+                }
+
+                .title-1 {
+                    font-size: 38px; 
+                }
             }
         </style>
     </head>
