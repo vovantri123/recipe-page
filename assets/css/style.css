@@ -8,14 +8,14 @@
 
 @font-face {
     font-family: "Outfit";
-    src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+    src: url("/assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
     font-weight: 100 900; /* Biến thiên từ 100 đến 900 */
     font-style: normal;
 }
 
 @font-face {
     font-family: "Young Serif";
-    src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+    src: url("/assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -180,7 +180,7 @@ hr {
     }
 
     .title-1 {
-        font-size: 28px;
+        font-size: 34px;
     }
 
     .title-2 {
